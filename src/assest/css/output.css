@@ -115,7 +115,9 @@ p{
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
-
+input:active .icon{
+  color: #0C3B2E ;
+}
 a {
   color: inherit;
   text-decoration: inherit;
