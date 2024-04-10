@@ -8,13 +8,13 @@ const NavBar = () => {
   return (
     <div className=' flex items-center justify-between px-8 gap-6'>
         <div className='flex items-center px-8 gap-10'>
-      <h1 className='text-[#0C3B2E] font-bold text-[25px] '>Dashboard</h1>
+      <h1 className='text-[#FFBA00] font-bold text-[25px]'>Dashboard</h1>
       <div className='relative'>
       <input 
         type="search" 
         name="search" 
         placeholder='Search' 
-        className='w-[300px] pl-10 pr-3 py-2 bg-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#0C3B2E] focus:border-transparent' 
+        className='w-[300px] outline-none pl-10 pr-3 py-2 bg-gray-300 rounded-full text-[#0C3B2E] font-bold' 
       />
       <IoIosSearch size={20} className='absolute top-1/2 left-3 transform -translate-y-1/2 text-[#0C3B2E]' />
     </div>

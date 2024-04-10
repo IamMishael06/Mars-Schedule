@@ -1,0 +1,80 @@
+Use this color pallette for the Ui:
+#6D9773
+#0C3B2E
+#BB8A52
+#FFBAOO
+#FFFFFF
+
+
+Color Palette:
+Background Color:
+Primary Background: Consider #6D9773 (Sage Green) or #BB8A52 (Warm Beige) depending on the desired mood. #FFFFFF (White) can be used for minimal or content-focused sections.
+Secondary Background: For areas within a primary background, consider a lighter shade of #6D9773 or #BB8A52.
+
+
+Button Color:
+Primary Button: #FFBA00 (Light Orange) is a good choice for its vibrancy and call-to-action potential.
+Secondary Button: #6D9773 (Sage Green) or #BB8A52 (Warm Beige) can be used for less prominent buttons.
+
+
+Text Color:
+Primary Text: #0C3B2E (Deep Forest Green) for strong contrast on lighter backgrounds like #FFFFFF (White) or #BB8A52 (Warm Beige). Consider using a slightly lighter shade for improved readability on #6D9773 (Sage Green).
+Secondary Text: #6D9773 (Sage Green) can be used for less prominent text or on darker backgrounds.
+
+
+Div Background Color:
+Use similar considerations as background colors. For example, use lighter shades of #6D9773 or #BB8A52 for divs within a primary background.
+
+
+Icon Color:
+#0C3B2E (Deep Forest Green) or #FFFFFF (White) are good options for icons on lighter backgrounds.
+Adjust the icon color based on the background color for optimal contrast and visibility.
+
+
+
+Using multiple fonts on your website can add visual interest and hierarchy to different elements. Here's a general guideline on where you can use each of the fonts you've chosen:
+
+Roboto: Roboto is a versatile font that works well for both headings and body text. It's a good choice for general content throughout your website, including paragraphs, headings, buttons, and navigation elements.
+
+Lato: Lato is another versatile font that pairs nicely with Roboto. You can use it for headings, subheadings, and other prominent text elements to create contrast with Roboto. Consider using Lato for section titles, headers, and call-to-action buttons.
+
+Quicksand: Quicksand has a modern and friendly appearance, making it suitable for headlines, quotes, or any text that needs to stand out. You can use Quicksand for section headers, feature titles, or promotional banners to add a touch of personality to your website.
+
+Rubik: Rubik is a geometric sans-serif font that can be used for special elements that require a clean and contemporary look. Consider using Rubik for special callouts, testimonials, or any design elements that need a modern and sleek appearance.
+
+Here's a breakdown of where you can use each font:
+
+Roboto:
+
+Body text
+Paragraphs
+Navigation links
+Buttons
+Form fields
+
+
+Lato:
+
+Headings (H1, H2, H3, etc.)
+Subheadings
+Section titles
+Call-to-action buttons (Lato Bold (700)):
+
+
+
+Quicksand:
+
+Section headers
+Feature titles
+Quotes
+Promotional banners
+
+
+
+
+Rubik:
+
+Special callouts
+Testimonials
+Design elements
+Unique headings or text blocks for visual emphasis
