@@ -9,7 +9,7 @@ export default function Login() {
     return (
         <React.Fragment>
             <div className='w-[100%] h-[100vh] overflow-hidden md:flex justify-center md:items-center md:bg-[#BB8A52]'>
-                <div className='w-[100%] h-[90%]  bg-[#BB8A52] rounded-bl-[250px] flex flex-col justify-center absolute right-full transition-[0.3s] ease-out'>
+                <div className='w-[100%] h-[90%]  bg-[#BB8A52] rounded-bl-[250px] flex flex-col justify-center absolute transition-[0.3s] ease-out'>
                     <div className='w-[90%] mx-auto h-[70%] '>
                         <hr className='border-4 border-[#6D9773] w-[15%] ml-[1.4rem]' />
                         {/* ======== FORM AREA ===== */}
@@ -41,7 +41,7 @@ export default function Login() {
                     </div>
                 </div>
                 {/* ==========================  Sign In ================================ */}
-                <div className='w-[100%] h-[90%] bg-[#6D9773] rounded-br-[250px] flex flex-col justify-center absolute left-0' style={{ left: `${moveDiv}%` }}>
+                <div className='w-[100%] h-[90%] bg-[#6D9773] rounded-br-[250px] flex flex-col justify-center absolute left-full'>
                 <div className='w-[90%] mx-auto h-[70%] '>
                         <hr className='border-4 border-[#FFB600] w-[15%] ml-[1.4rem]' />
                         {/* ======== FORM AREA ===== */}
@@ -68,8 +68,8 @@ export default function Login() {
                         </form>
                     </div>
 
-                <div className='w-[80px] h-[80px] bg-[#0C3B2E] cursor-pointer rounded-full absolute bottom-[-3%] left-[2%] flex justify-center items-center' onClick={() => setMoveDiv(0)}>
-                            <p className='font-lato text-white font-[700]'>Sign Up</p>
+                <div className='w-[80px] h-[80px] bg-[#0C3B2E] cursor-pointer rounded-full absolute bottom-[-3%] left-[2%] flex justify-center items-center'>
+                            <p className='font-lato text-white font-[700]'>Sign in</p>
                 </div>
                 </div>
             </div>
