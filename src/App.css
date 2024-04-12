@@ -1,1 +1,16 @@
+.signup-body {
+    transition: right 0.3s ease-out;
+}
 
+.signup-body.active {
+    right: 100%; /* Move signup form to the right */
+}
+
+.signin-body {
+    transition: left 0.3s ease-out; /* Transition left property for signin form */
+    left: 100%; /* Initially move signin form out of the viewport */
+}
+
+.signin-body.move {
+    left: 0; /* Move signin form back into the viewport */
+}
