@@ -8,11 +8,11 @@ const SideNav = () => {
   return (
     <div>
       <div className='flex flex-col items-center justify-center gap-[50px]'>
-      <GrHome size={26} className='cursor-pointer text-[#FFF]' />
-      <CgProfile size={26} className='cursor-pointer text-[#FFF]' />
-      <MdMessage size={26} className='cursor-pointer text-[#FFF]' />
-      <GoClock size={26} className='cursor-pointer text-[#FFF]' />
-      <IoSettingsOutline size={26} className='cursor-pointer text-[#FFF]' />
+      <GrHome size={26} className='cursor-pointer text-[#BB8A52]' />
+      <CgProfile size={26} className='cursor-pointer text-[#BB8A52]' />
+      <MdMessage size={26} className='cursor-pointer text-[#BB8A52]' />
+      <GoClock size={26} className='cursor-pointer text-[#BB8A52]' />
+      <IoSettingsOutline size={26} className='cursor-pointer text-[#BB8A52]' />
       </div>
     </div>
   )
