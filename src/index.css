@@ -2,3 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+/* Calendar.css */
+.calendar-container {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* Customize header buttons */
+.fc-header-toolbar {
+  margin-bottom: 10px;
+  color: #FFBA00;
+}
+
+/* Customize day cell */
+.fc-daygrid-day {
+  padding: 5px;
+}
+
+/* Customize event display */
+.fc-event {
+  font-size: 12px;
+  padding: 2px 5px;
+}
+
+/* Customize event title */
+.fc-event-title {
+  font-weight: bold;
+
+}
+
+/* Customize event time */
+.fc-event-time {
+  margin-left: 5px;
+  font-size: 10px;
+}
