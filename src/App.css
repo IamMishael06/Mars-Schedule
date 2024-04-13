@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
+.signup-body {
+    transition: right 0.3s ease-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signup-body.active {
+    right: 100%; /* Move signup form to the right */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signin-body {
+    transition: left 0.3s ease-out; /* Transition left property for signin form */
+    left: 100%; /* Initially move signin form out of the viewport */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signin-body.move {
+    left: 0; /* Move signin form back into the viewport */
 }
